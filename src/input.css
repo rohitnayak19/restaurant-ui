@@ -8,16 +8,18 @@
 
 
 
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+
+body {
   font-family: "Poppins", sans-serif;
 }
 
-.curtual-writing{
+.curtual-writing {
   font-family: "Caveat", cursive;
 }
+
 .comic-button {
   display: inline-block;
   font-weight: bold;
@@ -50,12 +52,13 @@ body{
 } */
 
 
-.header-image{
+.header-image {
   background-image: url('../assets/header_img.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* From Uiverse.io by gharsh11032000 */ 
+
+/* From Uiverse.io by gharsh11032000 */
 .card {
   position: relative;
   z-index: 2;
@@ -157,31 +160,33 @@ body{
   height: 100%;
 }
 
-.banner{
+.banner {
   background-image: url('../assets/banner.png');
   background-size: 300px;
 }
 
-.shadow{
+.shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu-items {
   display: none;
 }
+
 .menu-items.active {
   display: block;
 }
 
 .btn {
-    @apply bg-orange-500 text-white px-4 py-2 rounded-md m-2 transition duration-300 ease-in-out;
+  @apply bg-orange-500 text-white px-4 py-2 rounded-md m-2 transition duration-300 ease-in-out;
 }
+
 .btn:hover {
-    @apply bg-orange-600;
+  @apply bg-orange-600;
 }
 
 
-/* From Uiverse.io by akshat-patel28 */ 
+/* From Uiverse.io by akshat-patel28 */
 .card {
   display: flex;
   flex-direction: column;
@@ -195,7 +200,7 @@ body{
   overflow: hidden;
   transition: all 0.3s;
   cursor: pointer;
-  padding:5px;
+  padding: 5px;
 }
 
 .card:hover {
@@ -215,4 +220,3 @@ body{
   align-items: center;
   justify-content: center;
 }
-

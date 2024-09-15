@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,295 +9,323 @@
   <script src="https://kit.fontawesome.com/f54945268a.js" crossorigin="anonymous"></script>
   <script src="./script.js" defer></script>
 </head>
+
 <body>
   <!--Header section start-->
-    <section class="header sticky top-0 bg-white z-10 xs:p-2">
-      <div class="navbar w-[88%] mx-auto my-5">
-        <nav class="flex items-center justify-between">
-          <h1 class="text-normal md:text-3xl text-orange-500"><a href="" class="block transition ease-in duration-150 delay-75 hover:scale-125"><span class="mx-1"><i class="fa-solid fa-seedling"></i></span>Logo</a></h1>
+  <section class="header sticky top-0 bg-white z-10 xs:p-2">
+    <div class="navbar w-[88%] mx-auto my-5">
+      <nav class="flex items-center justify-between">
+        <h1 class="text-normal md:text-3xl text-orange-500"><a href=""
+            class="block transition ease-in duration-150 delay-75 hover:scale-125"><span class="mx-1"><i
+                class="fa-solid fa-seedling"></i></span>Logo</a></h1>
 
-          <div class="nav-items hidden md:block" id="menu">
-            <ul class="z-10 flex flex-col md:flex-row absolute md:static top-[70px] bg-orange-500 mx-4 md:bg-transparent py-10 md:p-4 rounded-b-lg text-cener left-0 right-0 gap-6 text-xl items-center text-white md:text-zinc-700">
-              <li>
-                <a href="#" class="block transition ease-in duration-150 delay-75 hover:scale-125">Home</a>
-              </li>
-              <li>
-                <a href="#services" class="block transition ease-in duration-150 delay-75 hover:scale-125">Services</a>
-              </li>
-              <li>
-                <a href="#about" class="block transition ease-in duration-150 delay-75 hover:scale-125">About</a>
-              </li>
-              <!-- <li>
+        <div class="nav-items hidden md:block" id="menu">
+          <ul
+            class="z-10 flex flex-col md:flex-row absolute md:static top-[70px] bg-orange-500 mx-4 md:bg-transparent py-10 md:p-4 rounded-b-lg text-cener left-0 right-0 gap-6 text-xl items-center text-white md:text-zinc-700">
+            <li>
+              <a href="#" class="block transition ease-in duration-150 delay-75 hover:scale-125">Home</a>
+            </li>
+            <li>
+              <a href="#services" class="block transition ease-in duration-150 delay-75 hover:scale-125">Services</a>
+            </li>
+            <li>
+              <a href="#about" class="block transition ease-in duration-150 delay-75 hover:scale-125">About</a>
+            </li>
+            <!-- <li>
                 <a href="#contact" class="block transition ease-in duration-150 delay-75 hover:scale-125">Contact</a>
               </li> -->
-              <li class="relative">
-                <a href="#menuItems" class="block transition ease-in duration-150 delay-75 hover:scale-125">Menu
-                  <span class="animate-ping absolute h-3 w-3 rounded-full bg-zinc-700"></span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="bars flex text-zinc-800 gap-2 text-lg comic-button md:hidden absolute xs:right-32 xs:mr-6 right-44 px-3 py-2">
-            <i class="fa-solid fa-bars cursor-pointer" id="open"></i>
-            <i class="fa-solid fa-x cursor-pointer" id="close"></i>
-          </div>
-
-          <button class="comic-button text-sm md:text-lg px-2 py-2"><a href="#cafeEvents">Book A Event!</a></button>
-        </nav>
-      </div>
-    </section>
-<!--Header section end-->
-
-<!--hero section start-->
-  <section class="w-[90%] mx-auto">
-      <div class="hero header-image h-[170px] sm:h-[400px] md:h-[600px]">
-        <div class="flex flex-col items-start md:justify-center h-full overflow-hidden px-10">
-          <h2 class="mt-4 xss:text-lg xs:text-2xl sm:text-5xl md:text-7xl font-semibold text-white xs:mb-1 mb-2 md:mb-6">Order your <br/>favourite food here</h2>
-          <p class="text-white text-xl md:text-sm mb-3 md:mb-6 md:w-[50%] xss:hidden xs:hidden sm:block md:hidden lg:hidden">Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary experties.</p>
-          <p class="text-white text-xl md:text-sm mb-3 md:mb-6 md:w-[50%] xss:hidden xs:hidden sm:hidden md:block">Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary experties. Our mission is to satisfy your cravings and elevet your dining experience, one delicius meal at the time.</p>
-          <button class="bg-white rounded-3xl py-1 px-1 md:py-3 md:px-5 text-zinc-700 w-fit text-xs md:text-md font-semibold transition ease-in duration-150 delay-75 hover:scale-105 hover:text-orange-500"><a href="#menuItems">View Menu</a></button>
+            <li class="relative">
+              <a href="#menuItems" class="block transition ease-in duration-150 delay-75 hover:scale-125">Menu
+                <span class="animate-ping absolute h-3 w-3 rounded-full bg-zinc-700"></span>
+              </a>
+            </li>
+          </ul>
         </div>
+
+        <div
+          class="bars flex text-zinc-800 gap-2 text-lg comic-button md:hidden absolute xs:right-32 xs:mr-6 right-44 px-3 py-2">
+          <i class="fa-solid fa-bars cursor-pointer" id="open"></i>
+          <i class="fa-solid fa-x cursor-pointer" id="close"></i>
+        </div>
+
+        <button class="comic-button text-sm md:text-lg px-2 py-2"><a href="#cafeEvents">Book A Event!</a></button>
+      </nav>
+    </div>
+  </section>
+  <!--Header section end-->
+
+  <!--hero section start-->
+  <section class="w-[90%] mx-auto">
+    <div class="hero header-image h-[170px] sm:h-[400px] md:h-[600px]">
+      <div class="flex flex-col items-start md:justify-center h-full overflow-hidden px-10">
+        <h2 class="mt-4 xss:text-lg xs:text-2xl sm:text-5xl md:text-7xl font-semibold text-white xs:mb-1 mb-2 md:mb-6">
+          Order your <br />favourite food here</h2>
+        <p
+          class="text-white text-xl md:text-sm mb-3 md:mb-6 md:w-[50%] xss:hidden xs:hidden sm:block md:hidden lg:hidden">
+          Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and
+          culinary experties.</p>
+        <p class="text-white text-xl md:text-sm mb-3 md:mb-6 md:w-[50%] xss:hidden xs:hidden sm:hidden md:block">Choose
+          from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary
+          experties. Our mission is to satisfy your cravings and elevet your dining experience, one delicius meal at the
+          time.</p>
+        <button
+          class="bg-white rounded-3xl py-1 px-1 md:py-3 md:px-5 text-zinc-700 w-fit text-xs md:text-md font-semibold transition ease-in duration-150 delay-75 hover:scale-105 hover:text-orange-500"><a
+            href="#menuItems">View Menu</a></button>
       </div>
+    </div>
   </section>
   <!--hero section end-->
 
-<!--service section start here-->
+  <!--service section start here-->
   <section class="service-section pt-1 md:mb-20" id="services">
-      <div class="w-[95%] md:w-[90%] mx-auto">
-        <h2 class="text-3xl md:text-5xl mb-10 md:my-14 text-center text-zinc-700">Our Services</h2>
-          <div class="flex gap-7 md:gap-20 flex-wrap items-center justify-center bg">
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+    <div class="w-[95%] md:w-[90%] mx-auto">
+      <h2 class="text-3xl md:text-5xl mb-10 md:my-14 text-center text-zinc-700">Our Services</h2>
+      <div class="flex gap-7 md:gap-20 flex-wrap items-center justify-center bg">
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
 
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
-              <img src="../assets/food_19-min.png" alt="" class="rounded-2xl">
-            </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Birthday</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Celebrate your birthday at our cafe with a delightful ambiance, personalized service, and a menu crafted to make your special day unforgettable. Book now to create cherished memories.
-                </p>
-              </div>
-              <button
-                class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-              >
-                <a href="#cafeEvents">Book Event</a>
-              </button>
-            </div>
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60  duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
-                <img src="../assets/kittypartyhq-1-1-min.jpeg" alt="" class="rounded-2xl">
-              </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Kitty Parties</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Host your kitty party at our cafe with an inviting atmosphere, attentive service, and a menu designed to make your gathering truly special. Reserve now for an unforgettable experience.
-                </p>
-              </div>
-              <button
-                class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-              >
-                <a href="#cafeEvents">Book Event</a>
-              </button>
-            </div>
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
-                <img src="../assets/anniversary_02-min.jpg" alt="" class="rounded-2xl">
-              </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Anniversary</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Celebrate your anniversary at our cafe with an intimate setting, personalized attention, and a menu curated to make your day memorable. Book now for a truly special celebration.
-                </p>
-              </div>
-              <button
-                class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-              >
-                <a href="#cafeEvents">Book Event</a>
-              </button>
-            </div>
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
-                <img src="../assets/room-min.jpg" alt="" class="rounded-2xl">
-              </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Ac Room</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Enjoy our AC Room for a comfortable and relaxing stay with top-notch amenities, exceptional service, and a serene environment. Book now for a refreshing experience.
-                </p>
-              </div>
-              <button
-                class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-              >
-                <a href="#cafeEvents">Book Event</a>
-              </button>
-            </div>
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
-                <img src="../assets/food_32-min.png" alt="" class="rounded-2xl">
-              </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Dinner</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Experience a delightful dinner at our cafe with a cozy ambiance, attentive service, and a menu designed to please your taste buds. Reserve your table now for a memorable dining experience.
-                </p>
-              </div>
-              <button
-              class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-            >
-              <a href="#cafeEvents">Book Event</a>
-            </button>
-            </div>
-            <div class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
-              <div class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/5 h-2/5">
-                <img src="../assets/carparking-min.jpg" alt="" class="rounded-2xl">
-              </div>
-              <div class="">
-                <h2 class="text-2xl font-bold mb-2 text-gray-800">Parking</h2>
-                <p class="text-gray-700 line-clamp-3">
-                  Take advantage of our convenient parking facilities with ample space, secure environment, and easy access. Ensure a hassle-free visit by parking with us.
-                </p>
-              </div>
-              <button
-                class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6"
-              >
-                <a href="#cafeEvents">Book Event</a>
-              </button>
-            </div>
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
+            <img src="../assets/food_19-min.png" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Birthday</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Celebrate your birthday at our cafe with a delightful ambiance, personalized service, and a menu crafted
+              to make your special day unforgettable. Book now to create cherished memories.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
+        </div>
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60  duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
+            <img src="../assets/kittypartyhq-1-1-min.jpeg" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Kitty Parties</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Host your kitty party at our cafe with an inviting atmosphere, attentive service, and a menu designed to
+              make your gathering truly special. Reserve now for an unforgettable experience.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
+        </div>
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
+            <img src="../assets/anniversary_02-min.jpg" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Anniversary</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Celebrate your anniversary at our cafe with an intimate setting, personalized attention, and a menu
+              curated to make your day memorable. Book now for a truly special celebration.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
+        </div>
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
+            <img src="../assets/room-min.jpg" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Ac Room</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Enjoy our AC Room for a comfortable and relaxing stay with top-notch amenities, exceptional service, and a
+              serene environment. Book now for a refreshing experience.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
+        </div>
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/6 h-2/6">
+            <img src="../assets/food_32-min.png" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Dinner</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Experience a delightful dinner at our cafe with a cozy ambiance, attentive service, and a menu designed to
+              please your taste buds. Reserve your table now for a memorable dining experience.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
+        </div>
+        <div
+          class="group cursor-pointer flex flex-col justify-start items-start gap-2 w-80 md:w-96 h-56 md:h-60 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+          <div
+            class="absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-0 -right-0 w-2/5 h-2/5">
+            <img src="../assets/carparking-min.jpg" alt="" class="rounded-2xl">
+          </div>
+          <div class="">
+            <h2 class="text-2xl font-bold mb-2 text-gray-800">Parking</h2>
+            <p class="text-gray-700 line-clamp-3">
+              Take advantage of our convenient parking facilities with ample space, secure environment, and easy access.
+              Ensure a hassle-free visit by parking with us.
+            </p>
+          </div>
+          <button class="hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6">
+            <a href="#cafeEvents">Book Event</a>
+          </button>
         </div>
       </div>
+    </div>
   </section>
-<!--service section end here-->
+  <!--service section end here-->
 
-<!--About section start here-->
-<section class="about-section pt-2" id="about">
+  <!--About section start here-->
+  <section class="about-section pt-2" id="about">
     <div class="w-[98%] md:w-[90%] mx-auto">
       <h2 class="text-3xl md:text-5xl my-8 md:mb-10 md:my-14 text-center text-zinc-700">About us</h2>
-      <div class="flex flex-col md:flex-row mx-8 md:mx-0 md:shadow items-center justify-center md:justify-evenly md:items-center gap-10 md:p-10 rounded-md">
+      <div
+        class="flex flex-col md:flex-row mx-8 md:mx-0 md:shadow items-center justify-center md:justify-evenly md:items-center gap-10 md:p-10 rounded-md">
         <div class="about-content w-[90%] md:w-[50%] order-2 md:order-1">
           <h3 class="italic text-4xl md:text-6xl curtual-writing text-orange-500 my-5">About us</h3>
-          <p class="text-lg md:text-xl text-zinc-700 my-6 md:my-10 block md:hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sit molestiae aliquam optio voluptas animi iure eligendi esse fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.</p>
-          <p class="text-justify text-lg md:text-xl text-zinc-700 my-6 md:my-10 hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sit molestiae aliquam optio voluptas animi iure eligendi esse fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.aliquam optio voluptas animi iure eligendi esse fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.</p>
-          <button class="shadow rounded-3xl py-3 px-4 md:py-4 md:px-6 text-zinc-700 w-fit text-xs md:text-md font-semibold transition ease-in duration-150 delay-75 hover:scale-105 mb-3 hover:text-orange-500">View Menu</button>
+          <p class="text-lg md:text-xl text-zinc-700 my-6 md:my-10 block md:hidden">Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Repellendus sit molestiae aliquam optio voluptas animi iure eligendi esse
+            fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.</p>
+          <p class="text-justify text-lg md:text-xl text-zinc-700 my-6 md:my-10 hidden md:block">Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Repellendus sit molestiae aliquam optio voluptas animi iure eligendi esse
+            fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.aliquam optio voluptas animi iure
+            eligendi esse fugit aliquid enim beatae, rem est corrupti assumenda iste error sequi ea.</p>
+          <button
+            class="shadow rounded-3xl py-3 px-4 md:py-4 md:px-6 text-zinc-700 w-fit text-xs md:text-md font-semibold transition ease-in duration-150 delay-75 hover:scale-105 mb-3 hover:text-orange-500">View
+            Menu</button>
         </div>
         <div class="about-image w-[90%] md:w-[40%] order-1 md:order-2 mt-4">
           <img src="../assets/Dal tadka.jfif" alt="" class="w-full rounded-s-sm md:rounded-full shadow">
         </div>
       </div>
     </div>
-</section>
-<!--About section end here-->
-  
-<!--Menu section start here-->
+  </section>
+  <!--About section end here-->
+
+  <!--Menu section start here-->
   <section class="menu-section pt-1 mt-5 md:mt-5 border-none" id="menuItems">
     <div class="w-[98%] md:w-[90%] mx-auto md:shadow py-4">
-        <h2 class="text-3xl md:text-5xl my-8 md:mb-10 md:my-14 text-center text-zinc-700">Menu</h2>
-        <div class="text-center my-4">
-            <button class="btn" onclick="showMenu('snacks')">Snacks <i class="fa-solid fa-cookie-bite"></i></button>
-            <button class="btn" onclick="showMenu('breakfast')">Breakfast <i class="fa-solid fa-mug-hot"></i></button>
-            <button class="btn" onclick="showMenu('lunch')">Lunch <i class="fa-solid fa-burger"></i></button>
-            <button class="btn" onclick="showMenu('dinner')">Dinner <i class="fa-solid fa-bowl-rice"></i></button>
-        </div>
-        <div id="snacks" class="menu-items active px-10 md:px-20">
-            <h3 class="text-2xl my-4 text-center">Snacks Items</h3>
-            <ul>
-              <li class="flex items-center justify-between py-2">
-                <div class="flex items-center">
-                  <img src="../assets/snacks/milk-tea-recipe.jpg" alt="" class="w-12 h-12 rounded-full">
-                  <span>Tea (free for Parikrama resident)</span>
-                </div>
-                <span class="text-orange-500 text-xl">Free</span>
-              </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center gap-1">
-                    <img src="../assets/snacks/samosa.jpg" alt="" class="w-12 rounded-full">
-                    <span>Samosa</span>
-                  </div>
-                  <span class="text-orange-500">₹20.00</span>
-                </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center">
-                    <img src="../assets/snacks/aloo tikki.jpg" alt="" class="w-12 rounded-full">
-                    <span>Aloo tikki</span>
-                  </div>
-                  <span class="text-orange-500">₹25.00</span>
-              </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center gap-1">
-                    <img src="../assets/snacks/kachori.jpg" alt="" class="w-12 rounded-full">
-                    <span>kachori</span>
-                  </div>
-                    <span class="text-orange-500">₹15.00</span>
-                </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center gap-1">
-                    <img src="../assets/snacks/vada pao.jpg" alt="" class="w-12 rounded-full">
-                    <span>Vada pao</span>
-                  </div>
-                    <span class="text-orange-500">₹15.00</span>
-                </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center gap-1">
-                    <img src="../assets/snacks/bhelpuri.jpg" alt="" class="w-12 rounded-full">
-                    <span>Bhelpuri</span>
-                  </div>
-                    <span class="text-orange-500">₹10.00</span>
-                </li>
-                <li class="flex items-center justify-between py-2">
-                  <div class="flex items-center gap-1">
-                    <img src="../assets/snacks/pakora.jpg" alt="" class="w-12 rounded-full">
-                    <span>Pakora</span>
-                  </div>
-                    <span class="text-orange-500">₹15.00</span>
-                </li>
-            </ul>
-        </div>
-        <div id="breakfast" class="menu-items px-10 md:px-20">
-          <h3 class="text-2xl my-4 text-center">Breakfast Items</h3>
-          <ul>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/dosa.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Masala dosa</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/upma.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Upma</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/idli.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Idli sambhar</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/poha.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Poha</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/cholebhature.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Chole Bhature</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-            <li class="flex items-center justify-between py-2">
-              <div class="flex items-center gap-1">
-                <img src="../assets/breakfast/meduvada.jpg" alt="" class="w-12 h-12 rounded-full">
-                <span>Medu vada</span>
-              </div>
-              <span class="text-orange-500">₹30.00</span>
-            </li>
-          </ul>
+      <h2 class="text-3xl md:text-5xl my-8 md:mb-10 md:my-14 text-center text-zinc-700">Menu</h2>
+      <div class="text-center my-4">
+        <button class="btn" onclick="showMenu('snacks')">Snacks <i class="fa-solid fa-cookie-bite"></i></button>
+        <button class="btn" onclick="showMenu('breakfast')">Breakfast <i class="fa-solid fa-mug-hot"></i></button>
+        <button class="btn" onclick="showMenu('lunch')">Lunch <i class="fa-solid fa-burger"></i></button>
+        <button class="btn" onclick="showMenu('dinner')">Dinner <i class="fa-solid fa-bowl-rice"></i></button>
+      </div>
+      <div id="snacks" class="menu-items active px-10 md:px-20">
+        <h3 class="text-2xl my-4 text-center">Snacks Items</h3>
+        <ul>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center">
+              <img src="../assets/snacks/milk-tea-recipe.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Tea (free for Parikrama resident)</span>
+            </div>
+            <span class="text-orange-500 text-xl">Free</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/snacks/samosa.jpg" alt="" class="w-12 rounded-full">
+              <span>Samosa</span>
+            </div>
+            <span class="text-orange-500">₹20.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center">
+              <img src="../assets/snacks/aloo tikki.jpg" alt="" class="w-12 rounded-full">
+              <span>Aloo tikki</span>
+            </div>
+            <span class="text-orange-500">₹25.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/snacks/kachori.jpg" alt="" class="w-12 rounded-full">
+              <span>kachori</span>
+            </div>
+            <span class="text-orange-500">₹15.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/snacks/vada pao.jpg" alt="" class="w-12 rounded-full">
+              <span>Vada pao</span>
+            </div>
+            <span class="text-orange-500">₹15.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/snacks/bhelpuri.jpg" alt="" class="w-12 rounded-full">
+              <span>Bhelpuri</span>
+            </div>
+            <span class="text-orange-500">₹10.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/snacks/pakora.jpg" alt="" class="w-12 rounded-full">
+              <span>Pakora</span>
+            </div>
+            <span class="text-orange-500">₹15.00</span>
+          </li>
+        </ul>
+      </div>
+      <div id="breakfast" class="menu-items px-10 md:px-20">
+        <h3 class="text-2xl my-4 text-center">Breakfast Items</h3>
+        <ul>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/dosa.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Masala dosa</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/upma.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Upma</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/idli.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Idli sambhar</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/poha.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Poha</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/cholebhature.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Chole Bhature</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/breakfast/meduvada.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Medu vada</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+        </ul>
       </div>
       <div id="lunch" class="menu-items px-10 md:px-20">
         <h3 class="text-2xl my-4 text-center">Lunch Items</h3>
@@ -337,227 +366,270 @@
             <span class="text-orange-500">₹30.00</span>
           </li>
         </ul>
-    </div>
-    <div id="dinner" class="menu-items px-10 md:px-20">
-      <h3 class="text-2xl my-4 text-center">Dinner Items</h3>
-      <ul>
-        <li class="flex items-center justify-between py-2">
-          <div class="flex items-center gap-1">
-            <img src="../assets/lunch/daltadka.jpg" alt="" class="w-12 h-12 rounded-full">
-            <span>Dal Rice</span>
-          </div>
-          <span class="text-orange-500">₹30.00</span>
-        </li>
-        <li class="flex items-center justify-between py-2">
-          <div class="flex items-center gap-1">
-            <img src="../assets/lunch/mataraloo.jpg" alt="" class="w-12 h-12 rounded-full">
-            <span>Matar</span>
-          </div>
-          <span class="text-orange-500">₹30.00</span>
-        </li>
-        <li class="flex items-center justify-between py-2">
-          <div class="flex items-center gap-1">
-            <img src="../assets/lunch/gobhi.jpg" alt="" class="w-12 h-12 rounded-full">
-            <span>Gobbhi Masala</span>
-          </div>
-          <span class="text-orange-500">₹30.00</span>
-        </li>
-        <li class="flex items-center justify-between py-2">
-          <div class="flex items-center gap-1">
-            <img src="../assets/lunch/paneer.jpg" alt="" class="w-12 h-12 rounded-full">
-            <span>Paneer Tikka</span>
-          </div>
-          <span class="text-orange-500">₹30.00</span>
-        </li>
-        <li class="flex items-center justify-between py-2">
-          <div class="flex items-center gap-1">
-            <img src="../assets/lunch/pulao.jpg" alt="" class="w-12 h-12 rounded-full">
-            <span>Jeera Rice</span>
-          </div>
-          <span class="text-orange-500">₹30.00</span>
-        </li>
-      </ul>
-  </div>
+      </div>
+      <div id="dinner" class="menu-items px-10 md:px-20">
+        <h3 class="text-2xl my-4 text-center">Dinner Items</h3>
+        <ul>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/lunch/daltadka.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Dal Rice</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/lunch/mataraloo.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Matar</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/lunch/gobhi.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Gobbhi Masala</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/lunch/paneer.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Paneer Tikka</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+          <li class="flex items-center justify-between py-2">
+            <div class="flex items-center gap-1">
+              <img src="../assets/lunch/pulao.jpg" alt="" class="w-12 h-12 rounded-full">
+              <span>Jeera Rice</span>
+            </div>
+            <span class="text-orange-500">₹30.00</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
- <!--Menu section end here-->
+  <!--Menu section end here-->
 
 
- <!--Book a Event start here-->
- <section class="event-booking-section py-10" id="cafeEvents">
-  <div class="w-[90%] md:w-[90%] mx-auto p-8 rounded-lg border border-gray-100">
-    <h2 class="text-3xl md:text-4xl mb-6 text-center text-zinc-700">Book an Event</h2>
-    <form id="bookingForm" action="#" method="POST" class="space-y-4">
-      <div>
-        <label for="name" class="block text-lg font-medium text-gray-700">Name</label>
-        <input type="text" id="name" name="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+  <!--Book a Event start here-->
+  <section class="event-booking-section py-10" id="cafeEvents">
+    <div class="w-[90%] md:w-[90%] mx-auto p-8 rounded-lg border border-gray-100">
+      <h2 class="text-3xl md:text-4xl mb-6 text-center text-zinc-700">Book an Event</h2>
+      <form id="bookingForm" action="#" method="POST" class="space-y-4">
+        <div>
+          <label for="name" class="block text-lg font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+            required>
+        </div>
+        <div>
+          <label for="email" class="block text-lg font-medium text-gray-700">Email (optional)</label>
+          <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+        </div>
+        <div>
+          <label for="phone" class="block text-lg font-medium text-gray-700">Phone</label>
+          <input type="tel" id="phone" name="phone" class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+            required>
+        </div>
+        <div>
+          <label for="event" class="block text-lg font-medium text-gray-700">Event Type</label>
+          <select id="event" name="event" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required
+            onchange="togglePersonCount()">
+            <option value="" disabled selected>Select an event</option>
+            <option value="Ac Room">Ac Room</option>
+            <option value="birthday">Birthday</option>
+            <option value="kittyparty">Kitty Party</option>
+            <option value="anniversary">Anniversary</option>
+            <option value="dinner">Dinner Table</option>
+          </select>
+        </div>
+        <div id="person-count" class="hidden">
+          <label for="persons" class="block text-lg font-medium text-gray-700">Number of Persons</label>
+          <select id="persons" name="persons" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+            <option value="" disabled selected>Select number of persons</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div>
+          <label for="date" class="block text-lg font-medium text-gray-700">Date</label>
+          <input type="date" id="date" name="date" class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+            required>
+        </div>
+        <div>
+          <label for="time" class="block text-lg font-medium text-gray-700">Time</label>
+          <input type="time" id="time" name="time" class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+            required>
+        </div>
+        <div id="errorMessage" style="color: red;"></div>
+        <div class="text-center">
+          <button type="button" onclick="sendToWhatsApp()"
+            class="bg-orange-500 text-white px-6 py-2 rounded-md mt-4 hover:bg-orange-600 transition duration-300 ease-in-out">Book
+            Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--Book a event end here-->
+
+  <!--Footer section start here-->
+  <section class="footer bg-gray-100">
+    <div class="w-[98%] md:w-[98%] mx-auto p-10 flex md:justify-evenly flex-wrap gap-16">
+      <div class="flex flex-col items-start gap-4">
+        <h1 class="text-orange-500 text-3xl"><a href=""
+            class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Social links</a>
+        </h1>
+
+        <ul class="grid gap-3">
+          <li>
+            <a href="" title="instagram"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-brands fa-instagram"></i>
+              Instagram</a>
+          </li>
+          <li>
+            <a href=""
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-brands fa-facebook"></i>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href=""
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-brands fa-whatsapp"></i>
+              Whatsapp
+            </a>
+          </li>
+          <li>
+            <a href=""
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl"><i
+                class="fa-brands fa-x-twitter"></i>
+              - Twitter
+            </a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <label for="email" class="block text-lg font-medium text-gray-700">Email (optional)</label>
-        <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+
+      <!-- another div 2 -->
+      <div class="flex flex-col items-start gap-4">
+        <h1 class="text-3xl text-orange-500"><a href=""
+            class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Explore Cafe</a>
+        </h1>
+
+        <ul class="grid gap-3">
+          <li>
+            <a href="#" title="instagram"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-house"></i>
+              Home</a>
+          </li>
+          <li>
+            <a href="#services"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-screwdriver-wrench"></i>
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#about"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-eject"></i>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#menuItems"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl"><i
+                class="fa-solid fa-bowl-food"></i>
+              Menu
+            </a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <label for="phone" class="block text-lg font-medium text-gray-700">Phone</label>
-        <input type="tel" id="phone" name="phone" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+
+      <!-- another div 3-->
+      <div class="flex flex-col items-start gap-4">
+        <h1 class="text-3xl text-orange-500"><a href=""
+            class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Menu</a>
+        </h1>
+        <ul class="grid gap-3">
+          <li>
+            <a href="#" title="instagram"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-cookie-bite"></i>
+              Snacks</a>
+          </li>
+          <li>
+            <a href="#menuItems"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-mug-hot"></i>
+              Breakfast
+            </a>
+          </li>
+          <li>
+            <a href="#menuItems"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-burger"></i>
+              Lunch
+            </a>
+          </li>
+          <li>
+            <a href="#menuItems"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl">
+              <i class="fa-solid fa-bowl-rice"></i>
+              Dinner
+            </a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <label for="event" class="block text-lg font-medium text-gray-700">Event Type</label>
-        <select id="event" name="event" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required onchange="togglePersonCount()">
-          <option value="" disabled selected>Select an event</option>
-          <option value="Ac Room">Ac Room</option>
-          <option value="birthday">Birthday</option>
-          <option value="kittyparty">Kitty Party</option>
-          <option value="anniversary">Anniversary</option>
-          <option value="dinner">Dinner Table</option>
-        </select>
+      <!-- another div 4 -->
+      <div class="flex flex-col items-start gap-4">
+        <h1 class=" text-orange-500 text-3xl"><a href=""
+            class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Contact us</a>
+        </h1>
+
+        <ul class="grid gap-3">
+          <li>
+            <a href="#" title="instagram"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-location-dot"></i>
+              Bilaspur,Chhattisgarh</a>
+          </li>
+          <li>
+            <a href="#services"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-envelope"></i>
+              Email: example@email.com
+            </a>
+          </li>
+          <li>
+            <a href="#about"
+              class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i
+                class="fa-solid fa-phone"></i>
+              Phone no: 1234567890
+            </a>
+          </li>
+        </ul>
       </div>
-      <div id="person-count" class="hidden">
-        <label for="persons" class="block text-lg font-medium text-gray-700">Number of Persons</label>
-        <select id="persons" name="persons" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-          <option value="" disabled selected>Select number of persons</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </div>
-      <div>
-        <label for="date" class="block text-lg font-medium text-gray-700">Date</label>
-        <input type="date" id="date" name="date" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
-      </div>
-      <div>
-        <label for="time" class="block text-lg font-medium text-gray-700">Time</label>
-        <input type="time" id="time" name="time" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
-      </div>
-      <div id="errorMessage" style="color: red;"></div>
-      <div class="text-center">
-        <button type="button" onclick="sendToWhatsApp()" class="bg-orange-500 text-white px-6 py-2 rounded-md mt-4 hover:bg-orange-600 transition duration-300 ease-in-out">Book Now</button>
-      </div>
-    </form>
+    </div>
+  </section>
+  <!--footer section end here-->
+
+  <!-- floating whatsapp  -->
+  <div class="floatingwhatsapp fixed bottom-5 md:bottom-10 right-10 shadow p-1 rounded-lg bg-white z-10 cursor-pointer">
+    <a href="https://wa.me/7999548643"><img src="../assets/whatsapp-svgrepo-com.svg" alt="" class="w-10 md:w-12"
+        title="Book through whatsapp"></a>
   </div>
-</section>
-<!--Book a event end here-->
-
-<!--Footer section start here-->
-<section class="footer bg-gray-100">
-  <div class="w-[98%] md:w-[98%] mx-auto p-10 flex md:justify-evenly flex-wrap gap-16">
-    <div class="flex flex-col items-start gap-4">
-      <h1 class="text-orange-500 text-3xl"><a href="" class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Social links</a>
-      </h1>
-
-      <ul class="grid gap-3">
-        <li>
-          <a href="" title="instagram" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-brands fa-instagram"></i>
-          Instagram</a>
-        </li>
-        <li>
-          <a href="" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-brands fa-facebook"></i>
-            Facebook
-          </a>
-        </li>
-        <li>
-          <a href="" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-brands fa-whatsapp"></i>
-            Whatsapp
-          </a>
-        </li>
-        <li>
-          <a href="" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl"><i class="fa-brands fa-x-twitter"></i>
-            - Twitter
-          </a>
-        </li>
-      </ul>
-    </div>
-    
-    <!-- another div 2 -->
-    <div class="flex flex-col items-start gap-4">
-      <h1 class="text-3xl text-orange-500"><a href="" class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Explore Cafe</a>
-      </h1>
-
-      <ul class="grid gap-3">
-        <li>
-          <a href="#" title="instagram" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-house"></i>
-          Home</a>
-        </li>
-        <li>
-          <a href="#services" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-screwdriver-wrench"></i>
-            Services
-          </a>
-        </li>
-        <li>
-          <a href="#about" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-eject"></i>
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#menuItems" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl"><i class="fa-solid fa-bowl-food"></i>
-            Menu
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- another div 3-->
-    <div class="flex flex-col items-start gap-4">
-      <h1 class="text-3xl text-orange-500"><a href="" class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Menu</a>
-      </h1>
-      <ul class="grid gap-3">
-        <li>
-          <a href="#" title="instagram" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-cookie-bite"></i>
-          Snacks</a>
-        </li>
-        <li>
-          <a href="#menuItems" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-mug-hot"></i>
-            Breakfast
-          </a>
-        </li>
-        <li>
-          <a href="#menuItems" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-burger"></i>
-            Lunch
-          </a>
-        </li>
-        <li>
-          <a href="#menuItems" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800  text-xl"> <i class="fa-solid fa-bowl-rice"></i>
-            Dinner
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- another div 4 -->
-    <div class="flex flex-col items-start gap-4">
-      <h1 class=" text-orange-500 text-3xl"><a href="" class="block transition-all ease-in duration-150 delay-75 hover:scale-125">Contact us</a>
-      </h1>
-
-      <ul class="grid gap-3">
-        <li>
-          <a href="#" title="instagram" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-location-dot"></i>
-          Bilaspur,Chhattisgarh</a>
-        </li>
-        <li>
-          <a href="#services" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-envelope"></i>
-            Email: example@email.com
-          </a>
-        </li>
-        <li>
-          <a href="#about" class="block transition-all ease-in duration-150 delay-75 hover:text-orange-500 text-zinc-800 text-xl"><i class="fa-solid fa-phone"></i>
-            Phone no: 1234567890
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!--footer section end here-->
-
-<!-- floating whatsapp  -->
-<div class="floatingwhatsapp fixed bottom-5 md:bottom-10 right-10 shadow p-1 rounded-lg bg-white z-10 cursor-pointer">
-  <a href="https://wa.me/7999548643"><img src="../assets/whatsapp-svgrepo-com.svg" alt="" class="w-10 md:w-12" title="Book through whatsapp"></a>
-</div>
 
 </body>
+
 </html>
